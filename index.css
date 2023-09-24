@@ -54,22 +54,111 @@ body,html{
     border-radius: 15px;
     padding:.3cm;
     line-height: 1.2cm;
+    position: relative;
 }
+.content-CV .left .information .info-name{
+    position: absolute;
+    background-color: orange;
+    font-weight: bold;
+    top:-.8cm;
+    left:1.5cm;
+    padding: .1cm .2cm;
+    border-radius:15px;
+}
+
 .content-CV .left .skill{
     background-color: rgba(238, 130, 238, 0.226);
     border-radius: 15px;
     padding:.3cm;
-    margin-top:.6cm;
+    margin-top:1cm;
     line-height: 1.2cm;
+    position: relative;
 }
-
+.content-CV .left .skill .skill-name{
+    position: absolute;
+    background-color: orange;
+    font-weight: bold;
+    top:-.8cm;
+    left:.8cm;
+    padding: .1cm .2cm;
+    border-radius:15px;
+}
+.certificate{
+    background-color: rgba(238, 130, 238, 0.226);
+    border-radius: 15px;
+    padding:.3cm;
+    margin-top:1cm;
+    line-height: 1.2cm;
+    position: relative;
+}
+.certificate .certificate-name{
+    position: absolute;
+    background-color: orange;
+    font-weight: bold;
+    top:-.8cm;
+    left:.8cm;
+    text-transform: uppercase;
+    padding: .1cm .2cm;
+    border-radius:15px;
+}
+/* het left */
 
 
 
 .content-CV .right{
     width: 55%;
     margin: .5cm;
+}
+.content-CV .right .career-goals{
     background-color: rgba(238, 130, 238, 0.226);
     border-radius: 15px;
-    height:130px;
+    padding: .5cm ;
+    position: relative;
 }
+.content-CV .right .career-goals .name-career-goals{
+    position: absolute;
+    background-color: orange;
+    font-weight: bold;
+    top:-.8cm;
+    left:.8cm;
+    padding: .4cm .4cm;
+    border-radius:15px;
+}
+.content-CV .right .career-goals p{
+   line-height: 1cm;
+}
+.education{
+    background-color: rgba(238, 130, 238, 0.226);
+    margin-top:1cm;
+    position: relative;
+    padding:.9cm .5cm;
+    line-height: 1cm;
+    border-radius: 15px;
+}
+.education .education-name{
+    position: absolute;
+    background-color: orange;
+    font-weight: bold;
+    top:-.8cm;
+    left:.8cm;
+    padding: .4cm .4cm;
+    border-radius:15px;
+}
+.work-experience{
+    background-color: rgba(238, 130, 238, 0.226);
+    margin-top:1cm;
+    position: relative;
+    padding:.9cm .5cm;
+    line-height: 1cm;
+    border-radius: 15px;
+}
+.work-experience .work-name{
+    position: absolute;
+    background-color: orange;
+    font-weight: bold;
+    top:-.8cm;
+    left:.8cm;
+    padding: .4cm .4cm;
+    border-radius:15px;
+}
+/* het right */
